@@ -1,0 +1,16 @@
+{
+  "evaluated_at": "2026-11-06T06:13:14.470517+00:00",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "cases": [
+    {
+      "case": "failure-permanent-retest",
+      "status": "completed",
+      "reason_code": null,
+      "first_model_action": "generate_script",
+      "model_decisions": 8,
+      "tool_units": 3,
+      "total_units": 8
+    }
+  ]
+}

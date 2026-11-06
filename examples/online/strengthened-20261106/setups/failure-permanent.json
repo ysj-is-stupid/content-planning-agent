@@ -1,0 +1,13 @@
+{
+  "initial_plan_id": "fabb4aea-a7fe-4c64-b20d-e326d3a02ce3",
+  "observed_tool_outcome": "failed",
+  "prebuilt_steps": [
+    "search_materials",
+    "create_plan",
+    "generate_script"
+  ],
+  "task_id": "e575c176-399e-4d9c-9795-dc373822e0a4",
+  "case": "failure-permanent",
+  "model_start": "prebuilt_business_state",
+  "initial_budget_units": 10
+}

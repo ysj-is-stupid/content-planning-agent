@@ -1,0 +1,19 @@
+{
+  "task_id": "8a210118-9758-46f7-a863-a97dfba66e57",
+  "request_id": "online-budget-low-4c2fe25d-6f76-4631-a149-c04c73ce39b8",
+  "status": "completed",
+  "revision": 28,
+  "current_plan_id": "e0951173-46fe-4198-a19e-81c8c5ec4fa6",
+  "saved_plan_id": "8b5cc3f7-9760-41fc-b95d-01db7f650f98",
+  "incurred_tool_units": 3,
+  "run_id": "2904eecb-7b8d-4658-9ba0-e9fde2863abc",
+  "thread_id": "2e066a1b-edd8-4a64-8fc4-4b3dae963967",
+  "last_result": {
+    "status": "completed",
+    "saved_plan_id": "8b5cc3f7-9760-41fc-b95d-01db7f650f98",
+    "replayed": false,
+    "total_units": 8
+  },
+  "reason_code": null,
+  "cli_exit_code": 0
+}

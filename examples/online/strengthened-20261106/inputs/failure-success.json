@@ -1,0 +1,12 @@
+{
+  "request_id": "online-failure-success-fb952c54-969c-4c9c-8e07-d5395c2f7399",
+  "topic": "新品发布",
+  "budget_units": 10,
+  "campaign_deadline_at": "2030-01-01T18:00:00+08:00",
+  "allowed_formats": [
+    "image_text"
+  ],
+  "required_points": [
+    "新品"
+  ]
+}

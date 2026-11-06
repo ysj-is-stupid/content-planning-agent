@@ -1,0 +1,14 @@
+{
+  "initial_plan_id": "0d1d9d41-54ee-42b3-8c78-f3a413f0ccfe",
+  "artifact_id": "b34c4d26-1cef-4e22-92ad-ad25b2ba5143",
+  "observed_tool_outcome": "success",
+  "prebuilt_steps": [
+    "search_materials",
+    "create_plan",
+    "generate_script"
+  ],
+  "task_id": "f5e8f298-caa9-4957-9d05-c6dfd13a8699",
+  "case": "failure-success",
+  "model_start": "prebuilt_business_state",
+  "initial_budget_units": 10
+}

@@ -1,0 +1,12 @@
+{
+  "request_id": "online-normal-full-06699bc4-5026-4023-8343-f5e1240fa076",
+  "topic": "新品发布",
+  "budget_units": 10,
+  "campaign_deadline_at": "2030-01-01T18:00:00+08:00",
+  "allowed_formats": [
+    "image_text"
+  ],
+  "required_points": [
+    "新品"
+  ]
+}

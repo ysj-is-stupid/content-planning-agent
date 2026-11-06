@@ -1,0 +1,19 @@
+{
+  "task_id": "8795e838-6a45-4d7f-a0ce-bbeb5fcdf61a",
+  "request_id": "online-failure-permanent-retest-93765c59-2260-4b73-b54a-ddb129f554d4",
+  "status": "completed",
+  "revision": 33,
+  "current_plan_id": "8d865da0-da2f-4daf-adbf-80a6dff492e8",
+  "saved_plan_id": "e5369def-5692-45ed-bf01-f6acc47c88b4",
+  "incurred_tool_units": 3,
+  "run_id": "69412882-03aa-4265-819f-d929410404e2",
+  "thread_id": "9cc9b98a-4c5c-497a-bc22-f7528f25f17c",
+  "last_result": {
+    "status": "completed",
+    "saved_plan_id": "e5369def-5692-45ed-bf01-f6acc47c88b4",
+    "replayed": false,
+    "total_units": 8
+  },
+  "reason_code": null,
+  "cli_exit_code": 0
+}

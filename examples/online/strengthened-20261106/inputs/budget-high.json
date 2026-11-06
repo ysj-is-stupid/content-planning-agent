@@ -1,0 +1,13 @@
+{
+  "request_id": "online-budget-high-3efe38e2-cc21-4e55-87d5-ea9d47ce4153",
+  "topic": "新品发布",
+  "budget_units": 20,
+  "campaign_deadline_at": "2030-01-01T18:00:00+08:00",
+  "allowed_formats": [
+    "video",
+    "image_text"
+  ],
+  "required_points": [
+    "新品"
+  ]
+}

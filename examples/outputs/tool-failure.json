@@ -1,0 +1,365 @@
+{
+  "task_id": "4c4c9728-e70e-4b03-ba21-18811a889e88",
+  "request_id": "example-tool-failure-v1",
+  "status": "completed",
+  "revision": 44,
+  "current_plan_id": "47548553-2474-4f73-a2a1-adac0bd91a62",
+  "saved_plan_id": "4a3da098-2b13-43ea-9d64-d6718087949c",
+  "incurred_tool_units": 2,
+  "tool_dispatch_count": 5,
+  "delivery": {
+    "task_requirements": {
+      "topic": "新品发布",
+      "budget_units": 10,
+      "campaign_deadline_at": "2030-01-01T18:00:00+08:00",
+      "request_id": "example-tool-failure-v1",
+      "allowed_formats": [
+        "image_text"
+      ],
+      "required_points": [
+        "新品"
+      ],
+      "parent_task_id": null
+    },
+    "task_plan": {
+      "plan_id": "47548553-2474-4f73-a2a1-adac0bd91a62",
+      "revision": 3,
+      "parent_plan_id": "87d82db4-0b4d-4fe6-b87f-1e6f4a74bae6",
+      "specification": {
+        "topic_id": "product_launch",
+        "selected_format": "image_text",
+        "channel": "social",
+        "material_ids": [
+          "launch-01"
+        ],
+        "material_hashes": [
+          "4c5cb93165e51820d2d7e0e57e8bbfbae3dd7ab9b9b5e3d5f0ba4ba33fccbe2b"
+        ],
+        "length": 60,
+        "quantity": 1,
+        "required_points": [
+          "新品"
+        ],
+        "generator_strategy": "compact",
+        "script_hash": "04edda0b4d80938d5238461aba48e6571be797a102bfd24f2520f197fc9cb1c5"
+      },
+      "script": {
+        "artifact_id": "df58de3c-023f-4509-94b8-72ca77ee46b5",
+        "status": "complete",
+        "content_hash": "04edda0b4d80938d5238461aba48e6571be797a102bfd24f2520f197fc9cb1c5",
+        "content": {
+          "title": "新品发布 · image_text",
+          "opening": "今天一起了解新品发布。",
+          "body": "合成素材：介绍新品功能与适用场景。 新品。",
+          "call_to_action": "欢迎参与新品发布。"
+        }
+      },
+      "quote": {
+        "quote_id": "f649e1cf-03e8-4be0-ba60-622288791565",
+        "pricing_rules_version": "r1",
+        "production_minutes": 45
+      }
+    },
+    "steps": [
+      {
+        "step": "search_materials",
+        "status": "succeeded",
+        "result_ids": [
+          "7cff827f97570e0a9ce7eb51a29adeee6e4ac403384bcd9d7b6d7178db4c4938"
+        ]
+      },
+      {
+        "step": "plan_selection",
+        "status": "succeeded",
+        "result_ids": [
+          "47548553-2474-4f73-a2a1-adac0bd91a62"
+        ]
+      },
+      {
+        "step": "generate_script",
+        "status": "succeeded",
+        "result_ids": [
+          "6124bdf2bb1464697260ca5eb12d0d70fe0db8d56c80272c6f68531702e0cca1",
+          "e6109757ba0d062ab81e9ae7e4b96f7558a6e1d2bbfaabcf78f07e5be8c603d4"
+        ]
+      },
+      {
+        "step": "estimate_cost",
+        "status": "succeeded",
+        "result_ids": [
+          "2ee2cb737dbcc8952025ffe162ec95a9f6eecad039557023b0584680005a3e40"
+        ]
+      },
+      {
+        "step": "save_plan",
+        "status": "succeeded",
+        "result_ids": [
+          "decision:04923b5f-6d37-429a-ad0b-7537491592b4"
+        ]
+      }
+    ],
+    "tool_results": [
+      {
+        "result_id": "7cff827f97570e0a9ce7eb51a29adeee6e4ac403384bcd9d7b6d7178db4c4938",
+        "tool": "search_materials",
+        "arguments": {
+          "query": "",
+          "selected_format": null,
+          "topic_id": "product_launch"
+        },
+        "status": "succeeded",
+        "outcome": "success",
+        "result": {
+          "data": {
+            "catalog_version": "r1",
+            "hint": null,
+            "materials": [
+              {
+                "content_hash": "4c5cb93165e51820d2d7e0e57e8bbfbae3dd7ab9b9b5e3d5f0ba4ba33fccbe2b",
+                "material_id": "launch-01",
+                "title": "新品亮点"
+              },
+              {
+                "content_hash": "fd92e2129227ea0e63f7cd89ae0b48bfe9fdea4dd409b1a833dd3840cfe90c8d",
+                "material_id": "launch-02",
+                "title": "用户体验"
+              }
+            ]
+          },
+          "fee_units": 1,
+          "operation_key": "7cff827f97570e0a9ce7eb51a29adeee6e4ac403384bcd9d7b6d7178db4c4938",
+          "outcome": "success",
+          "replayed": false,
+          "tool": "search_materials"
+        },
+        "fee_units": 1,
+        "attempts": [
+          {
+            "attempt_id": "aeb24ec7-e8aa-4dda-8de5-26c798cb0dc0",
+            "outcome": "success",
+            "error_code": null,
+            "at": "2026-11-06T11:33:14.830428+00:00"
+          }
+        ],
+        "model_decisions": [
+          {
+            "decision_id": "71500fb2-d2b7-45e3-88c2-da2c4096103e",
+            "sequence": 1,
+            "reason_summary": "先检索可用的合成素材",
+            "observed_event_ids": [
+              89,
+              90
+            ]
+          }
+        ],
+        "created_at": "2026-11-06T11:33:14.828089+00:00",
+        "finished_at": "2026-11-06T11:33:14.828089+00:00"
+      },
+      {
+        "result_id": "6124bdf2bb1464697260ca5eb12d0d70fe0db8d56c80272c6f68531702e0cca1",
+        "tool": "generate_script",
+        "arguments": {
+          "generation_fingerprint": "efdcf1d25ca20b29fe94cc2e5a8ac925d096bc5c465e0e8259fcdef6e801e592",
+          "mode": "full",
+          "partial_artifact_id": null
+        },
+        "status": "failed",
+        "outcome": "failed",
+        "result": {
+          "data": {
+            "error_code": "SCRIPT_GENERATION_FAILED"
+          },
+          "fee_units": 0,
+          "operation_key": "6124bdf2bb1464697260ca5eb12d0d70fe0db8d56c80272c6f68531702e0cca1",
+          "outcome": "failed",
+          "replayed": false,
+          "tool": "generate_script"
+        },
+        "fee_units": 0,
+        "attempts": [
+          {
+            "attempt_id": "9f60f7a7-266d-4024-9cb8-6316960417bc",
+            "outcome": "failed",
+            "error_code": "SCRIPT_GENERATION_FAILED",
+            "at": "2026-11-06T11:33:14.883194+00:00"
+          }
+        ],
+        "model_decisions": [
+          {
+            "decision_id": "9cc20035-6cad-46a9-a926-cdcd46a7d82c",
+            "sequence": 3,
+            "reason_summary": "生成当前方案脚本",
+            "observed_event_ids": [
+              99,
+              100
+            ]
+          }
+        ],
+        "created_at": "2026-11-06T11:33:14.880630+00:00",
+        "finished_at": "2026-11-06T11:33:14.880630+00:00"
+      },
+      {
+        "result_id": "e6109757ba0d062ab81e9ae7e4b96f7558a6e1d2bbfaabcf78f07e5be8c603d4",
+        "tool": "generate_script",
+        "arguments": {
+          "generation_fingerprint": "b7e44c22a069a969d57318a745d44a2ccfe31e38a104d6e13bebab47c8445f41",
+          "mode": "full",
+          "partial_artifact_id": null
+        },
+        "status": "succeeded",
+        "outcome": "success",
+        "result": {
+          "data": {
+            "artifact_id": "df58de3c-023f-4509-94b8-72ca77ee46b5",
+            "content_hash": "04edda0b4d80938d5238461aba48e6571be797a102bfd24f2520f197fc9cb1c5",
+            "status": "complete"
+          },
+          "fee_units": 1,
+          "operation_key": "e6109757ba0d062ab81e9ae7e4b96f7558a6e1d2bbfaabcf78f07e5be8c603d4",
+          "outcome": "success",
+          "replayed": false,
+          "tool": "generate_script"
+        },
+        "fee_units": 1,
+        "attempts": [
+          {
+            "attempt_id": "3aac46f1-2ff6-4328-a314-ad9e78a2a18a",
+            "outcome": "success",
+            "error_code": null,
+            "at": "2026-11-06T11:33:14.935558+00:00"
+          }
+        ],
+        "model_decisions": [
+          {
+            "decision_id": "5cde9be9-8f3c-4c55-ae8c-bdb3eb3f831e",
+            "sequence": 5,
+            "reason_summary": "生成当前方案脚本",
+            "observed_event_ids": [
+              109,
+              110
+            ]
+          }
+        ],
+        "created_at": "2026-11-06T11:33:14.932561+00:00",
+        "finished_at": "2026-11-06T11:33:14.932561+00:00"
+      },
+      {
+        "result_id": "2ee2cb737dbcc8952025ffe162ec95a9f6eecad039557023b0584680005a3e40",
+        "tool": "estimate_cost",
+        "arguments": {
+          "artifact_id": "df58de3c-023f-4509-94b8-72ca77ee46b5",
+          "script_hash": "04edda0b4d80938d5238461aba48e6571be797a102bfd24f2520f197fc9cb1c5",
+          "spec_hash": "ff1c3848fdfffe1ab944deffde65030d67dcf0cda1d34ef3c4ae3378cfd02fda"
+        },
+        "status": "succeeded",
+        "outcome": "success",
+        "result": {
+          "data": {
+            "feasibility": {
+              "budget_ok": true,
+              "budget_shortfall_units": 0,
+              "campaign_base_units": 4,
+              "campaign_license_units": 1,
+              "campaign_units": 5,
+              "completion_estimate_at": "2026-11-06T12:18:14.984134Z",
+              "deadline_ok": true,
+              "evaluated_at": "2026-11-06T11:33:14.984134Z",
+              "incurred_tool_units": 2,
+              "production_minutes": 45,
+              "total_units": 7
+            },
+            "quote_id": "f649e1cf-03e8-4be0-ba60-622288791565"
+          },
+          "fee_units": 0,
+          "operation_key": "2ee2cb737dbcc8952025ffe162ec95a9f6eecad039557023b0584680005a3e40",
+          "outcome": "success",
+          "replayed": false,
+          "tool": "estimate_cost"
+        },
+        "fee_units": 0,
+        "attempts": [
+          {
+            "attempt_id": "b2e85a19-6b67-400f-b71f-9bd74c9bb0b2",
+            "outcome": "success",
+            "error_code": null,
+            "at": "2026-11-06T11:33:14.986735+00:00"
+          }
+        ],
+        "model_decisions": [
+          {
+            "decision_id": "d927f16a-f743-4b5c-91a2-05d0189c05da",
+            "sequence": 7,
+            "reason_summary": "计算当前版本的费用和工时",
+            "observed_event_ids": [
+              119,
+              120
+            ]
+          }
+        ],
+        "created_at": "2026-11-06T11:33:14.984134+00:00",
+        "finished_at": "2026-11-06T11:33:14.984134+00:00"
+      },
+      {
+        "result_id": "decision:04923b5f-6d37-429a-ad0b-7537491592b4",
+        "tool": "save_plan",
+        "arguments": {
+          "artifact_id": "df58de3c-023f-4509-94b8-72ca77ee46b5",
+          "plan_id": "47548553-2474-4f73-a2a1-adac0bd91a62",
+          "quote_id": "f649e1cf-03e8-4be0-ba60-622288791565"
+        },
+        "status": "succeeded",
+        "outcome": "success",
+        "result": {
+          "progress_hash": "3add3a472ecda9b36e4351f39ff17bf4b92d9e5673ccf0dbd2f3290ca5504ae2",
+          "replayed": false,
+          "saved_plan_id": "4a3da098-2b13-43ea-9d64-d6718087949c",
+          "status": "completed",
+          "total_units": 7
+        },
+        "fee_units": 0,
+        "attempts": [],
+        "model_decisions": [
+          {
+            "decision_id": "04923b5f-6d37-429a-ad0b-7537491592b4",
+            "sequence": 8,
+            "reason_summary": "保存已校验可行的方案",
+            "observed_event_ids": [
+              125,
+              126
+            ]
+          }
+        ],
+        "created_at": "2026-11-06T11:33:15.005171+00:00",
+        "finished_at": "2026-11-06T11:33:15.005171+00:00"
+      }
+    ],
+    "cost_summary": {
+      "budget_units": 10,
+      "incurred_tool_units": 2,
+      "campaign_base_units": 4,
+      "campaign_license_units": 1,
+      "campaign_units": 5,
+      "total_units": 7,
+      "remaining_budget_units": 3
+    },
+    "saved_plan": {
+      "saved_plan_id": "4a3da098-2b13-43ea-9d64-d6718087949c",
+      "plan_id": "47548553-2474-4f73-a2a1-adac0bd91a62",
+      "artifact_id": "df58de3c-023f-4509-94b8-72ca77ee46b5",
+      "quote_id": "f649e1cf-03e8-4be0-ba60-622288791565",
+      "evaluated_at": "2026-11-06T11:33:15.014136+00:00",
+      "completion_estimate_at": "2026-11-06T12:18:15.014136+00:00"
+    },
+    "incomplete_reason": null
+  },
+  "run_id": "8325b8ca-f996-4c47-b8a9-0ae1aac2b077",
+  "thread_id": "c531b24e-6656-48aa-b8eb-3bae89e2d9a9",
+  "last_result": {
+    "status": "completed",
+    "saved_plan_id": "4a3da098-2b13-43ea-9d64-d6718087949c",
+    "replayed": false,
+    "total_units": 7,
+    "progress_hash": "3add3a472ecda9b36e4351f39ff17bf4b92d9e5673ccf0dbd2f3290ca5504ae2"
+  },
+  "reason_code": null
+}

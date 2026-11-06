@@ -1,0 +1,17 @@
+{
+  "initial_plan_id": "e3b7ca8b-5094-4a79-8462-86b1f90f54fe",
+  "artifact_id": "a9919e49-b3fd-471d-b4bf-d47d0c1fc19b",
+  "quote_id": "d4671e34-f295-4302-a34b-c09401318a54",
+  "observed_tool_outcome": "estimate_success",
+  "prebuilt_steps": [
+    "search_materials",
+    "create_plan",
+    "generate_script",
+    "bind_script",
+    "estimate_cost"
+  ],
+  "task_id": "8a210118-9758-46f7-a863-a97dfba66e57",
+  "case": "budget-low",
+  "model_start": "prebuilt_business_state",
+  "initial_budget_units": 10
+}

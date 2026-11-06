@@ -1,0 +1,25 @@
+{
+  "task_id": "e575c176-399e-4d9c-9795-dc373822e0a4",
+  "request_id": "online-failure-permanent-82d78995-3f9e-4cd5-8a30-d99cefd412d0",
+  "status": "incomplete",
+  "revision": 30,
+  "current_plan_id": "fabb4aea-a7fe-4c64-b20d-e326d3a02ce3",
+  "saved_plan_id": null,
+  "incurred_tool_units": 1,
+  "tool_dispatch_count": 5,
+  "run_id": "3b138ce1-5615-4082-853c-2bff13ec40a6",
+  "thread_id": "eaf8e194-ff54-41fe-b7c7-1d842ad35b88",
+  "last_result": {
+    "data": {
+      "error_code": "SCRIPT_GENERATION_FAILED"
+    },
+    "fee_units": 0,
+    "operation_key": "cb74d1471b053a1a8ea1c50adb9e3a5b5288864c212808482a6c5b396129021a",
+    "outcome": "failed",
+    "replayed": true,
+    "tool": "generate_script",
+    "progress_hash": "aa85fae4e87f360431e6d2a6a8a48b586805245115509b5452196d6249115253"
+  },
+  "reason_code": "NO_PROGRESS",
+  "cli_exit_code": 0
+}

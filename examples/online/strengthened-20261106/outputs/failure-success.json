@@ -1,0 +1,21 @@
+{
+  "task_id": "0a525988-e7a0-4de4-a0f4-a0c8b43b75e1",
+  "request_id": "online-failure-success-fb952c54-969c-4c9c-8e07-d5395c2f7399",
+  "status": "completed",
+  "revision": 23,
+  "current_plan_id": "5de43d7f-a22c-4145-984b-5dd033dc0096",
+  "saved_plan_id": "3fe299ff-527e-4f0e-b7fb-89a595916e05",
+  "incurred_tool_units": 2,
+  "tool_dispatch_count": 2,
+  "run_id": "f2d11418-cb38-45e0-8802-cd49925a94b9",
+  "thread_id": "f0233e18-0c7b-477e-be6f-986e96523a1c",
+  "last_result": {
+    "status": "completed",
+    "saved_plan_id": "3fe299ff-527e-4f0e-b7fb-89a595916e05",
+    "replayed": false,
+    "total_units": 7,
+    "progress_hash": "48c798eaeb78f56606689526a6e526c07be917a3a9094276914e5ad44d3ca85c"
+  },
+  "reason_code": null,
+  "cli_exit_code": 0
+}

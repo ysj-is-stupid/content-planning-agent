@@ -1,0 +1,9 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+runtime/
+*.egg-info/
+.env
+.venv/
+.idea/
+/本对话总结-临时.md

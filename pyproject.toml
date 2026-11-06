@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "content-planning-agent"
+version = "0.1.0"
+description = "A constrained content planning agent"
+requires-python = ">=3.11"
+dependencies = [
+  "pydantic>=2.12,<3",
+  "langgraph>=1,<2",
+  "langgraph-checkpoint-sqlite>=3,<4",
+  "aiosqlite>=0.20,<1",
+  "portalocker>=3,<4",
+  "openai>=2,<3",
+  "python-dotenv>=1,<2",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<9"]
+
+[project.scripts]
+content-agent = "content_agent.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

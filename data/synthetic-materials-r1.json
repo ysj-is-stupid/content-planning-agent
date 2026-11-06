@@ -1,0 +1,57 @@
+{
+  "catalog_version": "r1",
+  "data_classification": "synthetic-demo-only",
+  "license_boundary": "仅用于本地考核演示，不代表真实版权审核或商用授权",
+  "topics": [
+    {
+      "topic_id": "product_launch",
+      "aliases": ["新品发布", "产品发布", "product launch"]
+    },
+    {
+      "topic_id": "eco_campaign",
+      "aliases": ["环保活动", "绿色生活", "eco campaign"]
+    },
+    {
+      "topic_id": "community_event",
+      "aliases": ["社区活动", "社区市集", "community event"]
+    }
+  ],
+  "materials": [
+    {
+      "material_id": "launch-01",
+      "topic_id": "product_launch",
+      "title": "新品亮点",
+      "summary": "合成素材：介绍新品功能与适用场景。",
+      "formats": ["video", "image_text"],
+      "license": "synthetic-demo-only",
+      "version": "r1"
+    },
+    {
+      "material_id": "launch-02",
+      "topic_id": "product_launch",
+      "title": "用户体验",
+      "summary": "合成素材：用户体验片段与反馈。",
+      "formats": ["video", "image_text"],
+      "license": "synthetic-demo-only",
+      "version": "r1"
+    },
+    {
+      "material_id": "eco-01",
+      "topic_id": "eco_campaign",
+      "title": "绿色生活",
+      "summary": "合成素材：低碳行动与参与方式。",
+      "formats": ["video", "image_text"],
+      "license": "synthetic-demo-only",
+      "version": "r1"
+    },
+    {
+      "material_id": "community-01",
+      "topic_id": "community_event",
+      "title": "社区市集",
+      "summary": "合成素材：活动场地与报名信息。",
+      "formats": ["video", "image_text"],
+      "license": "synthetic-demo-only",
+      "version": "r1"
+    }
+  ]
+}

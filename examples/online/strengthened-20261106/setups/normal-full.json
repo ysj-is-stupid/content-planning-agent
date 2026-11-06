@@ -1,0 +1,6 @@
+{
+  "case": "normal-full",
+  "model_start": "raw_input",
+  "initial_budget_units": 10,
+  "prebuilt_steps": []
+}

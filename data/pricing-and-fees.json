@@ -1,0 +1,55 @@
+{
+  "ruleset_version": "r1",
+  "fee_policy_version": "r1",
+  "pricing_rulesets": {
+    "r1": {
+      "video": {
+        "base_units": 8,
+        "license_units": 2,
+        "production_minutes": 120
+      },
+      "image_text": {
+        "base_units": 4,
+        "license_units": 1,
+        "production_minutes": 45
+      }
+    },
+    "r2": {
+      "video": {
+        "base_units": 9,
+        "license_units": 2,
+        "production_minutes": 120
+      },
+      "image_text": {
+        "base_units": 5,
+        "license_units": 1,
+        "production_minutes": 45
+      }
+    }
+  },
+  "tool_fees": {
+    "search_materials": {
+      "success": 1,
+      "partial": 1,
+      "failed": 0
+    },
+    "generate_script": {
+      "success": 1,
+      "partial": 1,
+      "failed": 0
+    },
+    "estimate_cost": {
+      "success": 0,
+      "partial": 0,
+      "failed": 0
+    },
+    "save_plan": {
+      "success": 0,
+      "partial": 0,
+      "failed": 0
+    }
+  },
+  "budget_formula": "incurred_tool_units + campaign_base_units + campaign_license_units",
+  "deadline_rule": "evaluated_at + production_minutes <= campaign_deadline_at",
+  "sunk_cost_rule": "已成功或部分成功的工具费用不因方案被替代而退回"
+}
